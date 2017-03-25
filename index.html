@@ -13,6 +13,23 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+        </style>
     </head>
     <p>
         <!--[if lt IE 8]>
@@ -20,33 +37,89 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p><h1>Essential Keyboard Shortcuts</h1></p>
+    <p><h1>Essential Keyboard Shortcuts</h1></p>
 
-        <p>This is the year I up my keyboard game.</p>
+    <p>This is the year I up my keyboard game.</p>
 
-        <p>Upper case indicates Shift is included.</p>
+    <p>Upper case indicates Shift is included.</p>
 
-        <p></p><h2>Terminal shortcuts</h2></p>
+    <p></p><h2>Terminal shortcuts</h2></p>
 
+    <table>
+        <tr>
+            <th>Key combination</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>Ctrl + a</td>
+            <td>Move to the beginning of the line</td>
+        </tr>
+        <tr>
+            <td>Ctrl + e</td>
+            <td>Move to the end of the line</td>
+        </tr>
+        <tr>
+            <td>Ctrl + [left arrow]</td>
+            <td>Move one word backward (on some systems this is Alt + B)</td>
+        </tr>
+        <tr>
+            <td>Ctrl + [right arrow]</td>
+            <td>Move one word forward (on some systems this is Alt + F)</td>
+        </tr>
+        <tr>
+            <td>Ctrl + u (bash)</td>
+            <td>Clear the characters on the line before the current cursor position</td>
+        </tr>
+        <tr>
+            <td>Ctrl + u (zsh)</td>
+            <td>If you're using the zsh, this will clear the entire line</td>
+        </tr>
+        <tr>
+            <td>Ctrl + k</td>
+            <td>Clear the characters on the line after the current cursor position</td>
+        </tr>
+        <tr>
+            <td>Esc + [backspace]</td>
+            <td>Delete the word before the cursor</td>
+        </tr>
+        <tr>
+            <td>Ctrl + w</td>
+            <td>Delete the word before the cursor</td>
+        </tr>
+        <tr>
+            <td>Ctrl + r</td>
+            <td>Search history</td>
+        </tr>
+        <tr>
+            <td>Ctrl + g</td>
+            <td>Escape from search mode</td>
+        </tr>
+        <tr>
+            <td>Ctrl + _</td>
+            <td>Undo the last change</td>
+        </tr>
+        <tr>
+            <td>Ctrl + l</td>
+            <td>Clear screen</td>
+        </tr>
+        <tr>
+            <td>Ctrl + s</td>
+            <td>Stop output to screen</td>
+        </tr>
+        <tr>
+            <td>Ctrl + q</td>
+            <td>Re-enable screen output</td>
+        </tr>
+        <tr>
+            <td>Ctrl + c</td>
+            <td>Terminate/kill current foreground process</td>
+        </tr>
+        <tr>
+            <td>Ctrl + z</td>
+            <td>Suspend/stop current foreground process</td>
+        </tr>
+    </table>
 
-        Ctrl + a                    Move to the beginning of the line<br>
-        Ctrl + e                    Move to the end of the line<br>
-        Ctrl + [left arrow]	        Move one word backward (on some systems this is Alt + B)<br>
-        Ctrl + [right arrow]	    Move one word forward (on some systems this is Alt + F)<br>
-        Ctrl + u (bash)		        Clear the characters on the line before the current cursor position<br>
-        Ctrl + u (zsh)		        If you're using the zsh, this will clear the entire line<br>
-        Ctrl + k		            Clear the characters on the line after the current cursor position<br>
-        Esc + [backspace]	        Delete the word in front of the cursor<br>
-        Ctrl + w		            Delete the word in front of the cursor<br>
-        Alt + d			            Delete the word after the cursor<br>
-        Ctrl + r		            Search history<br>
-        Ctrl + g		            Escape from search mode<br>
-        Ctrl + _		            Undo the last change<br>
-        Ctrl + l		            Clear screen<br>
-        Ctrl + s		            Stop output to screen<br>
-        Ctrl + q		            Re-enable screen output<br>
-        Ctrl + c		            Terminate/kill current foreground process<br>
-        Ctrl + z		            Suspend/stop current foreground process<br>
 
         <p>Linux shortcuts</p>
 
